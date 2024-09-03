@@ -14,10 +14,10 @@ import (
 	"os/user"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	ethlog "github.com/ethereum/go-ethereum/log"
+	"github.com/luckypickle/go-ethereum-vet/crypto"
+	ethlog "github.com/luckypickle/go-ethereum-vet/log"
+	"github.com/luckypickle/vet-thor/log"
 	"github.com/mattn/go-isatty"
-	"github.com/vechain/thor/v2/log"
 )
 
 func initLogger(lvl int) *slog.LevelVar {

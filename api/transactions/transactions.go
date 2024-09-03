@@ -8,14 +8,14 @@ package transactions
 import (
 	"net/http"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/gorilla/mux"
+	"github.com/luckypickle/go-ethereum-vet/common/hexutil"
+	"github.com/luckypickle/go-ethereum-vet/rlp"
+	"github.com/luckypickle/vet-thor/api/utils"
+	"github.com/luckypickle/vet-thor/chain"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/txpool"
 	"github.com/pkg/errors"
-	"github.com/vechain/thor/v2/api/utils"
-	"github.com/vechain/thor/v2/chain"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/txpool"
 )
 
 type Transactions struct {

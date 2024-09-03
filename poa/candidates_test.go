@@ -9,11 +9,11 @@ import (
 	"crypto/rand"
 	"testing"
 
+	"github.com/luckypickle/vet-thor/builtin/authority"
+	"github.com/luckypickle/vet-thor/muxdb"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/builtin/authority"
-	"github.com/vechain/thor/v2/muxdb"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
 )
 
 func generateCandidateList(candidateCount int) []*authority.Candidate {

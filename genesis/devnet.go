@@ -10,11 +10,11 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/vechain/thor/v2/builtin"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/tx"
+	"github.com/luckypickle/go-ethereum-vet/crypto"
+	"github.com/luckypickle/vet-thor/builtin"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/tx"
 )
 
 // DevAccount account for development.

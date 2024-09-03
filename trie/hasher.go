@@ -19,9 +19,9 @@ package trie
 import (
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/vechain/thor/v2/lowrlp"
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/go-ethereum-vet/common"
+	"github.com/luckypickle/vet-thor/lowrlp"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 type hasher struct {

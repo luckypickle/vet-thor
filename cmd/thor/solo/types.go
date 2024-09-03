@@ -6,9 +6,9 @@
 package solo
 
 import (
-	"github.com/vechain/thor/v2/chain"
-	"github.com/vechain/thor/v2/comm"
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/vet-thor/chain"
+	"github.com/luckypickle/vet-thor/comm"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 // Communicator in solo is a fake one just for api handler.

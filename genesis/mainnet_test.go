@@ -8,8 +8,8 @@ package genesis_test
 import (
 	"testing"
 
+	"github.com/luckypickle/vet-thor/genesis"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/genesis"
 )
 
 // TestNewMainnet tests the NewMainnet function for creating the mainnet genesis block

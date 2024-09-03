@@ -8,10 +8,10 @@ package builtin
 import (
 	"encoding/hex"
 
+	"github.com/luckypickle/vet-thor/abi"
+	"github.com/luckypickle/vet-thor/builtin/gen"
+	"github.com/luckypickle/vet-thor/thor"
 	"github.com/pkg/errors"
-	"github.com/vechain/thor/v2/abi"
-	"github.com/vechain/thor/v2/builtin/gen"
-	"github.com/vechain/thor/v2/thor"
 )
 
 type contract struct {

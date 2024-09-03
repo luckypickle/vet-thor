@@ -9,14 +9,14 @@ import (
 	"math"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/luckypickle/go-ethereum-vet/crypto"
+	"github.com/luckypickle/vet-thor/chain"
+	"github.com/luckypickle/vet-thor/genesis"
+	"github.com/luckypickle/vet-thor/muxdb"
+	"github.com/luckypickle/vet-thor/packer"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/chain"
-	"github.com/vechain/thor/v2/genesis"
-	"github.com/vechain/thor/v2/muxdb"
-	"github.com/vechain/thor/v2/packer"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
 )
 
 type TestBFT struct {

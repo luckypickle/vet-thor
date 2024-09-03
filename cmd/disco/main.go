@@ -12,10 +12,10 @@ import (
 	"net"
 	"os"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/luckypickle/go-ethereum-vet/crypto"
+	"github.com/luckypickle/go-ethereum-vet/p2p/discv5"
+	"github.com/luckypickle/go-ethereum-vet/p2p/nat"
+	"github.com/luckypickle/go-ethereum-vet/p2p/netutil"
 	"github.com/pkg/errors"
 	cli "gopkg.in/urfave/cli.v1"
 )

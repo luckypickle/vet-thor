@@ -11,12 +11,12 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/luckypickle/go-ethereum-vet/crypto"
+	"github.com/luckypickle/vet-thor/genesis"
+	"github.com/luckypickle/vet-thor/tx"
 	"github.com/stretchr/testify/assert"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/storage"
-	"github.com/vechain/thor/v2/genesis"
-	"github.com/vechain/thor/v2/tx"
 )
 
 func newTx() *tx.Transaction {

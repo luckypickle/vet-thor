@@ -9,9 +9,9 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/luckypickle/go-ethereum-vet/rlp"
+	"github.com/luckypickle/vet-thor/thor"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/thor"
 )
 
 func TestTrf(t *testing.T) {

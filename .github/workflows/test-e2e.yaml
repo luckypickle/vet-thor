@@ -44,7 +44,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: vechain/thor-e2e-tests
-          # https://github.com/vechain/thor-e2e-tests/tree/d86b30b6409b27e841eace0f7c5b6e75c0a4e25e
+          # https://github.com/luckypickle/vet-thor-e2e-tests/tree/d86b30b6409b27e841eace0f7c5b6e75c0a4e25e
           ref: d86b30b6409b27e841eace0f7c5b6e75c0a4e25e
 
       - name: Download artifact

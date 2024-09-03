@@ -10,15 +10,15 @@ import (
 	"math"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/luckypickle/go-ethereum-vet/rlp"
+	"github.com/luckypickle/vet-thor/block"
+	"github.com/luckypickle/vet-thor/kv"
+	"github.com/luckypickle/vet-thor/muxdb"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/trie"
+	"github.com/luckypickle/vet-thor/tx"
 	"github.com/pkg/errors"
 	"github.com/syndtr/goleveldb/leveldb/util"
-	"github.com/vechain/thor/v2/block"
-	"github.com/vechain/thor/v2/kv"
-	"github.com/vechain/thor/v2/muxdb"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/trie"
-	"github.com/vechain/thor/v2/tx"
 )
 
 const (

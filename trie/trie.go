@@ -21,9 +21,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/vechain/thor/v2/log"
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/go-ethereum-vet/rlp"
+	"github.com/luckypickle/vet-thor/log"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 var (

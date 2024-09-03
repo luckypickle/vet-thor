@@ -9,7 +9,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/luckypickle/go-ethereum-vet/params"
 )
 
 // Constants of block chain.

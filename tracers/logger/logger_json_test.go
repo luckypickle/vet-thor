@@ -12,8 +12,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/vechain/thor/v2/vm"
+	"github.com/luckypickle/go-ethereum-vet/common"
+	"github.com/luckypickle/vet-thor/vm"
 )
 
 // Implement the StateDB interface partially for testing

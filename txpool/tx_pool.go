@@ -12,16 +12,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/vechain/thor/v2/builtin"
-	"github.com/vechain/thor/v2/chain"
-	"github.com/vechain/thor/v2/co"
-	"github.com/vechain/thor/v2/log"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/tx"
+	"github.com/luckypickle/go-ethereum-vet/common"
+	"github.com/luckypickle/go-ethereum-vet/common/mclock"
+	"github.com/luckypickle/go-ethereum-vet/event"
+	"github.com/luckypickle/vet-thor/builtin"
+	"github.com/luckypickle/vet-thor/chain"
+	"github.com/luckypickle/vet-thor/co"
+	"github.com/luckypickle/vet-thor/log"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/tx"
 )
 
 const (

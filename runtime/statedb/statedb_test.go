@@ -17,12 +17,12 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/vechain/thor/v2/muxdb"
-	"github.com/vechain/thor/v2/runtime/statedb"
-	State "github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/go-ethereum-vet/common"
+	"github.com/luckypickle/go-ethereum-vet/core/types"
+	"github.com/luckypickle/vet-thor/muxdb"
+	"github.com/luckypickle/vet-thor/runtime/statedb"
+	State "github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 func TestSnapshotRandom(t *testing.T) {

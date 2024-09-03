@@ -8,10 +8,10 @@ package node
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/vechain/thor/v2/block"
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/go-ethereum-vet/common"
+	"github.com/luckypickle/go-ethereum-vet/common/mclock"
+	"github.com/luckypickle/vet-thor/block"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 type blockStats struct {

@@ -8,8 +8,8 @@ package p2psrv
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/luckypickle/go-ethereum-vet/crypto"
+	"github.com/luckypickle/go-ethereum-vet/p2p/discover"
 	"github.com/stretchr/testify/assert"
 )
 

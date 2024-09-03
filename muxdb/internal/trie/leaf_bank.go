@@ -9,11 +9,11 @@ import (
 	"encoding/binary"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/rlp"
 	lru "github.com/hashicorp/golang-lru"
+	"github.com/luckypickle/go-ethereum-vet/rlp"
+	"github.com/luckypickle/vet-thor/kv"
+	"github.com/luckypickle/vet-thor/trie"
 	"github.com/pkg/errors"
-	"github.com/vechain/thor/v2/kv"
-	"github.com/vechain/thor/v2/trie"
 )
 
 const (

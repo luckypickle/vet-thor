@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"sync"
 
+	"github.com/luckypickle/vet-thor/log"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/vechain/thor/v2/log"
 )
 
 var logger = log.WithContext("pkg", "metrics")

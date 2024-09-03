@@ -23,10 +23,10 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/luckypickle/go-ethereum-vet/common"
+	"github.com/luckypickle/go-ethereum-vet/ethdb"
+	"github.com/luckypickle/vet-thor/thor"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/thor"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/luckypickle/vet-thor/cache"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/cache"
 )
 
 func TestPrioCacheAddRemove(t *testing.T) {

@@ -8,12 +8,12 @@ package chain_test
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/luckypickle/go-ethereum-vet/crypto"
+	"github.com/luckypickle/vet-thor/block"
+	"github.com/luckypickle/vet-thor/chain"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/tx"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/block"
-	"github.com/vechain/thor/v2/chain"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/tx"
 )
 
 func newTx() *tx.Transaction {

@@ -6,11 +6,11 @@
 package comm
 
 import (
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/vechain/thor/v2/block"
-	"github.com/vechain/thor/v2/comm/proto"
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/go-ethereum-vet/p2p/discover"
+	"github.com/luckypickle/go-ethereum-vet/rlp"
+	"github.com/luckypickle/vet-thor/block"
+	"github.com/luckypickle/vet-thor/comm/proto"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 type announcement struct {

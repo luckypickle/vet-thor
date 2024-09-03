@@ -10,7 +10,7 @@ import (
 	"math/big"
 
 	a "github.com/decred/dcrd/dcrec/secp256k1/v4"
-	b "github.com/ethereum/go-ethereum/crypto/secp256k1"
+	b "github.com/luckypickle/go-ethereum-vet/crypto/secp256k1"
 )
 
 // mergedCurve merges fast parts of two secp256k1 curve implementations.

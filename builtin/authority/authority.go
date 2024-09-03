@@ -8,9 +8,9 @@ package authority
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/go-ethereum-vet/rlp"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 var (

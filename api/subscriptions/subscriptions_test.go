@@ -16,11 +16,11 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/gorilla/websocket"
+	"github.com/luckypickle/vet-thor/block"
+	"github.com/luckypickle/vet-thor/chain"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/txpool"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/block"
-	"github.com/vechain/thor/v2/chain"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/txpool"
 )
 
 var ts *httptest.Server

@@ -24,13 +24,13 @@ import (
 
 	"github.com/dop251/goja"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/luckypickle/go-ethereum-vet/common"
+	"github.com/luckypickle/go-ethereum-vet/common/hexutil"
 
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/tracers"
-	jsassets "github.com/vechain/thor/v2/tracers/js/internal/tracers"
-	"github.com/vechain/thor/v2/vm"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/tracers"
+	jsassets "github.com/luckypickle/vet-thor/tracers/js/internal/tracers"
+	"github.com/luckypickle/vet-thor/vm"
 )
 
 var assetTracers = make(map[string]string)

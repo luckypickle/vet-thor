@@ -12,15 +12,15 @@ import (
 	"testing"
 	"time"
 
+	"github.com/luckypickle/vet-thor/builtin"
+	"github.com/luckypickle/vet-thor/chain"
+	"github.com/luckypickle/vet-thor/muxdb"
+	"github.com/luckypickle/vet-thor/runtime"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/tx"
+	"github.com/luckypickle/vet-thor/xenv"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/builtin"
-	"github.com/vechain/thor/v2/chain"
-	"github.com/vechain/thor/v2/muxdb"
-	"github.com/vechain/thor/v2/runtime"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/tx"
-	"github.com/vechain/thor/v2/xenv"
 )
 
 func M(a ...interface{}) []interface{} {

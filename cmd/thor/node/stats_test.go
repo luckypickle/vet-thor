@@ -8,9 +8,9 @@ package node
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
+	"github.com/luckypickle/go-ethereum-vet/common/mclock"
+	"github.com/luckypickle/vet-thor/block"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/block"
 )
 
 func TestUpdateProcessed(t *testing.T) {

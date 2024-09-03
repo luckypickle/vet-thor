@@ -9,7 +9,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/vechain/thor/v2/api/utils"
+	"github.com/luckypickle/vet-thor/api/utils"
 )
 
 type Node struct {

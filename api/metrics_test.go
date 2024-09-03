@@ -18,18 +18,18 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/gorilla/websocket"
+	"github.com/luckypickle/vet-thor/api/accounts"
+	"github.com/luckypickle/vet-thor/api/subscriptions"
+	"github.com/luckypickle/vet-thor/chain"
+	"github.com/luckypickle/vet-thor/cmd/thor/solo"
+	"github.com/luckypickle/vet-thor/genesis"
+	"github.com/luckypickle/vet-thor/metrics"
+	"github.com/luckypickle/vet-thor/muxdb"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/txpool"
 	"github.com/prometheus/common/expfmt"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/api/accounts"
-	"github.com/vechain/thor/v2/api/subscriptions"
-	"github.com/vechain/thor/v2/chain"
-	"github.com/vechain/thor/v2/cmd/thor/solo"
-	"github.com/vechain/thor/v2/genesis"
-	"github.com/vechain/thor/v2/metrics"
-	"github.com/vechain/thor/v2/muxdb"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/txpool"
 )
 
 func init() {

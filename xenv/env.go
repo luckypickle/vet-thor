@@ -8,16 +8,16 @@ package xenv
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	ethparams "github.com/ethereum/go-ethereum/params"
+	"github.com/luckypickle/go-ethereum-vet/common"
+	"github.com/luckypickle/go-ethereum-vet/core/types"
+	ethparams "github.com/luckypickle/go-ethereum-vet/params"
+	"github.com/luckypickle/vet-thor/abi"
+	"github.com/luckypickle/vet-thor/chain"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/tx"
+	"github.com/luckypickle/vet-thor/vm"
 	"github.com/pkg/errors"
-	"github.com/vechain/thor/v2/abi"
-	"github.com/vechain/thor/v2/chain"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/tx"
-	"github.com/vechain/thor/v2/vm"
 )
 
 // BlockContext block context.

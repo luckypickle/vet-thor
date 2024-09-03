@@ -8,7 +8,7 @@ package block
 import (
 	"math"
 
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 // GasLimit to support block gas limit validation and adjustment.

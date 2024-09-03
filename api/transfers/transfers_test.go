@@ -17,17 +17,17 @@ import (
 	"testing"
 
 	"github.com/gorilla/mux"
+	"github.com/luckypickle/vet-thor/api/events"
+	"github.com/luckypickle/vet-thor/api/transfers"
+	"github.com/luckypickle/vet-thor/block"
+	"github.com/luckypickle/vet-thor/chain"
+	"github.com/luckypickle/vet-thor/genesis"
+	"github.com/luckypickle/vet-thor/logdb"
+	"github.com/luckypickle/vet-thor/muxdb"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/tx"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/api/events"
-	"github.com/vechain/thor/v2/api/transfers"
-	"github.com/vechain/thor/v2/block"
-	"github.com/vechain/thor/v2/chain"
-	"github.com/vechain/thor/v2/genesis"
-	"github.com/vechain/thor/v2/logdb"
-	"github.com/vechain/thor/v2/muxdb"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/tx"
 )
 
 const defaultLogLimit uint64 = 1000

@@ -8,9 +8,9 @@ package node
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/luckypickle/go-ethereum-vet/crypto"
+	"github.com/luckypickle/vet-thor/thor"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/thor"
 )
 
 func TestAddress(t *testing.T) {

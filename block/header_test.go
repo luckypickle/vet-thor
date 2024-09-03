@@ -10,10 +10,10 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/luckypickle/go-ethereum-vet/common/hexutil"
+	"github.com/luckypickle/go-ethereum-vet/rlp"
+	"github.com/luckypickle/vet-thor/thor"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/thor"
 )
 
 func TestHeader_BetterThan(t *testing.T) {

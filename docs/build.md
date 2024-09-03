@@ -9,7 +9,7 @@ Thor requires `Go` 1.19+ and `C` compiler to build. To install `Go`, follow this
 Clone the Thor repo:
 
 ```shell
-git clone https://github.com/vechain/thor.git
+git clone https://github.com/luckypickle/vet-thor.git
 cd thor
 ```
 

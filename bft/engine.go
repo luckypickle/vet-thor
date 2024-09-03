@@ -8,15 +8,15 @@ import (
 	"sort"
 	"sync/atomic"
 
+	"github.com/luckypickle/vet-thor/block"
+	"github.com/luckypickle/vet-thor/builtin"
+	"github.com/luckypickle/vet-thor/cache"
+	"github.com/luckypickle/vet-thor/chain"
+	"github.com/luckypickle/vet-thor/kv"
+	"github.com/luckypickle/vet-thor/muxdb"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
 	"github.com/pkg/errors"
-	"github.com/vechain/thor/v2/block"
-	"github.com/vechain/thor/v2/builtin"
-	"github.com/vechain/thor/v2/cache"
-	"github.com/vechain/thor/v2/chain"
-	"github.com/vechain/thor/v2/kv"
-	"github.com/vechain/thor/v2/muxdb"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
 
 	lru "github.com/hashicorp/golang-lru"
 )

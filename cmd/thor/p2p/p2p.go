@@ -11,14 +11,14 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/luckypickle/go-ethereum-vet/common"
+	"github.com/luckypickle/go-ethereum-vet/p2p/discover"
+	"github.com/luckypickle/go-ethereum-vet/p2p/nat"
+	"github.com/luckypickle/go-ethereum-vet/rlp"
+	"github.com/luckypickle/vet-thor/comm"
+	"github.com/luckypickle/vet-thor/log"
+	"github.com/luckypickle/vet-thor/p2psrv"
 	"github.com/pkg/errors"
-	"github.com/vechain/thor/v2/comm"
-	"github.com/vechain/thor/v2/log"
-	"github.com/vechain/thor/v2/p2psrv"
 )
 
 type P2P struct {

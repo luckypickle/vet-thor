@@ -4,7 +4,7 @@
 // file LICENSE or <https://www.gnu.org/licenses/lgpl-3.0.html>
 
 // Package lowrlp provides methods to perform low-level rlp encoding.
-// Codes are mostly copied from github.com/ethereum/go-ethereum/rlp.
+// Codes are mostly copied from github.com/luckypickle/go-ethereum-vet/rlp.
 package lowrlp
 
 import (

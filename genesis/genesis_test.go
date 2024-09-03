@@ -8,11 +8,11 @@ package genesis_test
 import (
 	"testing"
 
+	"github.com/luckypickle/vet-thor/genesis"
+	"github.com/luckypickle/vet-thor/muxdb"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/genesis"
-	"github.com/vechain/thor/v2/muxdb"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
 )
 
 func TestTestnetGenesis(t *testing.T) {

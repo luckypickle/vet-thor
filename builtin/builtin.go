@@ -6,16 +6,16 @@
 package builtin
 
 import (
+	"github.com/luckypickle/vet-thor/abi"
+	"github.com/luckypickle/vet-thor/builtin/authority"
+	"github.com/luckypickle/vet-thor/builtin/energy"
+	"github.com/luckypickle/vet-thor/builtin/gen"
+	"github.com/luckypickle/vet-thor/builtin/params"
+	"github.com/luckypickle/vet-thor/builtin/prototype"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/xenv"
 	"github.com/pkg/errors"
-	"github.com/vechain/thor/v2/abi"
-	"github.com/vechain/thor/v2/builtin/authority"
-	"github.com/vechain/thor/v2/builtin/energy"
-	"github.com/vechain/thor/v2/builtin/gen"
-	"github.com/vechain/thor/v2/builtin/params"
-	"github.com/vechain/thor/v2/builtin/prototype"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/xenv"
 )
 
 // Builtin contracts binding.

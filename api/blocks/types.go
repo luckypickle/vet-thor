@@ -6,11 +6,11 @@
 package blocks
 
 import (
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/vechain/thor/v2/chain"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/tx"
+	"github.com/luckypickle/go-ethereum-vet/common/hexutil"
+	"github.com/luckypickle/go-ethereum-vet/common/math"
+	"github.com/luckypickle/vet-thor/chain"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/tx"
 )
 
 type JSONBlockSummary struct {

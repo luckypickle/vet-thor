@@ -14,12 +14,12 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/secp256k1"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/go-ethereum-vet/common/math"
+	"github.com/luckypickle/go-ethereum-vet/crypto"
+	"github.com/luckypickle/go-ethereum-vet/crypto/secp256k1"
+	"github.com/luckypickle/go-ethereum-vet/params"
+	"github.com/luckypickle/go-ethereum-vet/rlp"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 var (

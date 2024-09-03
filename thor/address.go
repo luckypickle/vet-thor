@@ -12,7 +12,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/luckypickle/go-ethereum-vet/common"
 )
 
 const (

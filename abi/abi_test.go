@@ -9,11 +9,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/luckypickle/go-ethereum-vet/common"
+	"github.com/luckypickle/vet-thor/abi"
+	"github.com/luckypickle/vet-thor/builtin/gen"
+	"github.com/luckypickle/vet-thor/thor"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/abi"
-	"github.com/vechain/thor/v2/builtin/gen"
-	"github.com/vechain/thor/v2/thor"
 )
 
 func TestABI(t *testing.T) {

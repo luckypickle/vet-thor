@@ -10,14 +10,14 @@ import (
 	"math"
 	"testing"
 
+	"github.com/luckypickle/vet-thor/chain"
+	"github.com/luckypickle/vet-thor/cmd/thor/solo"
+	"github.com/luckypickle/vet-thor/genesis"
+	"github.com/luckypickle/vet-thor/muxdb"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/chain"
-	"github.com/vechain/thor/v2/cmd/thor/solo"
-	"github.com/vechain/thor/v2/genesis"
-	"github.com/vechain/thor/v2/muxdb"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
 )
 
 func TestParseRevision(t *testing.T) {

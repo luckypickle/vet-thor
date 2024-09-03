@@ -22,10 +22,10 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/luckypickle/go-ethereum-vet/common"
+	"github.com/luckypickle/go-ethereum-vet/common/math"
+	"github.com/luckypickle/go-ethereum-vet/params"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -9,13 +9,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/vechain/thor/v2/stackedmap"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/tx"
+	"github.com/luckypickle/go-ethereum-vet/common"
+	"github.com/luckypickle/go-ethereum-vet/core/types"
+	"github.com/luckypickle/vet-thor/stackedmap"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/tx"
 )
 
 var codeSizeCache, _ = lru.New(32 * 1024)

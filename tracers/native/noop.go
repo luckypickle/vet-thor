@@ -20,9 +20,9 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/vechain/thor/v2/tracers"
-	"github.com/vechain/thor/v2/vm"
+	"github.com/luckypickle/go-ethereum-vet/common"
+	"github.com/luckypickle/vet-thor/tracers"
+	"github.com/luckypickle/vet-thor/vm"
 )
 
 func init() {

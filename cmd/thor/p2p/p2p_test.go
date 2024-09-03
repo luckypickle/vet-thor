@@ -11,9 +11,9 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/vechain/thor/v2/p2psrv"
-	"github.com/vechain/thor/v2/test/datagen"
+	"github.com/luckypickle/go-ethereum-vet/p2p/discover"
+	"github.com/luckypickle/vet-thor/p2psrv"
+	"github.com/luckypickle/vet-thor/test/datagen"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -8,7 +8,7 @@ package comm
 import (
 	"context"
 
-	"github.com/vechain/thor/v2/block"
+	"github.com/luckypickle/vet-thor/block"
 )
 
 // NewBlockEvent event emitted when received block announcement.

@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/luckypickle/vet-thor/thor"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/thor"
 )
 
 func TestClauseTo(t *testing.T) {

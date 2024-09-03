@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/vechain/thor/v2/lowrlp"
-	"github.com/vechain/thor/v2/muxdb"
-	"github.com/vechain/thor/v2/stackedmap"
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/go-ethereum-vet/rlp"
+	"github.com/luckypickle/vet-thor/lowrlp"
+	"github.com/luckypickle/vet-thor/muxdb"
+	"github.com/luckypickle/vet-thor/stackedmap"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 const (

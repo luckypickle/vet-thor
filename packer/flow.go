@@ -8,14 +8,14 @@ package packer
 import (
 	"crypto/ecdsa"
 
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/luckypickle/go-ethereum-vet/crypto"
+	"github.com/luckypickle/vet-thor/block"
+	"github.com/luckypickle/vet-thor/runtime"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/tx"
+	"github.com/luckypickle/vet-thor/vrf"
 	"github.com/pkg/errors"
-	"github.com/vechain/thor/v2/block"
-	"github.com/vechain/thor/v2/runtime"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/tx"
-	"github.com/vechain/thor/v2/vrf"
 )
 
 // Flow the flow of packing a new block.

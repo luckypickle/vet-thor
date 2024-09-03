@@ -8,7 +8,7 @@ package optimizer
 import (
 	"encoding/json"
 
-	"github.com/vechain/thor/v2/kv"
+	"github.com/luckypickle/vet-thor/kv"
 )
 
 type status struct {

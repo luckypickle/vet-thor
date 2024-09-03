@@ -11,12 +11,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/vechain/thor/v2/builtin"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/tx"
+	"github.com/luckypickle/go-ethereum-vet/common/hexutil"
+	"github.com/luckypickle/go-ethereum-vet/common/math"
+	"github.com/luckypickle/vet-thor/builtin"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/tx"
 )
 
 // CustomGenesis is user customized genesis

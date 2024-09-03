@@ -8,8 +8,8 @@ package debug
 import (
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/go-ethereum-vet/common/math"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 type TraceClauseOption struct {

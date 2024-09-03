@@ -8,11 +8,11 @@ package trie
 import (
 	"context"
 
+	"github.com/luckypickle/vet-thor/kv"
+	"github.com/luckypickle/vet-thor/log"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/trie"
 	"github.com/pkg/errors"
-	"github.com/vechain/thor/v2/kv"
-	"github.com/vechain/thor/v2/log"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/trie"
 )
 
 var logger = log.WithContext("pkg", "muxdb.trie")

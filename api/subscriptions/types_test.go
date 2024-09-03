@@ -10,17 +10,17 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/luckypickle/go-ethereum-vet/common/hexutil"
+	"github.com/luckypickle/go-ethereum-vet/common/math"
+	"github.com/luckypickle/go-ethereum-vet/crypto"
+	"github.com/luckypickle/vet-thor/block"
+	"github.com/luckypickle/vet-thor/chain"
+	"github.com/luckypickle/vet-thor/genesis"
+	"github.com/luckypickle/vet-thor/muxdb"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/tx"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/block"
-	"github.com/vechain/thor/v2/chain"
-	"github.com/vechain/thor/v2/genesis"
-	"github.com/vechain/thor/v2/muxdb"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/tx"
 )
 
 func TestConvertBlockWithBadSignature(t *testing.T) {

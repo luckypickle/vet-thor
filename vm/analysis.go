@@ -17,8 +17,8 @@
 package vm
 
 import (
-	"github.com/ethereum/go-ethereum/common"
 	lru "github.com/hashicorp/golang-lru"
+	"github.com/luckypickle/go-ethereum-vet/common"
 )
 
 // bitmapCache caches code bitmap.

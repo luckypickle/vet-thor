@@ -10,7 +10,7 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/vechain/thor/v2/log"
+	"github.com/luckypickle/vet-thor/log"
 )
 
 type logLevelRequest struct {

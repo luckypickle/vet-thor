@@ -6,8 +6,8 @@
 package state
 
 import (
-	"github.com/vechain/thor/v2/muxdb"
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/vet-thor/muxdb"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 // Stater is the state creator.

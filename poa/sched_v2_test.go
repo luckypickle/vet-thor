@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 var (

@@ -5,7 +5,7 @@
 
 package trie
 
-import "github.com/vechain/thor/v2/thor"
+import "github.com/luckypickle/vet-thor/thor"
 
 // ExtendedTrie is an extended Merkle Patricia Trie which supports nodes sequence number
 // and leaf metadata.

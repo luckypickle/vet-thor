@@ -8,8 +8,8 @@ package subscriptions
 import (
 	"testing"
 
+	"github.com/luckypickle/vet-thor/chain"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/chain"
 )
 
 func TestEventReader_Read(t *testing.T) {

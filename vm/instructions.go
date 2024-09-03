@@ -20,11 +20,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/go-ethereum-vet/common"
+	"github.com/luckypickle/go-ethereum-vet/core/types"
+	"github.com/luckypickle/go-ethereum-vet/params"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 var (

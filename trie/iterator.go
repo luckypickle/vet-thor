@@ -21,7 +21,7 @@ import (
 	"container/heap"
 	"errors"
 
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 // Iterator is a key-value trie iterator that traverses a Trie.

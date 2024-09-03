@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/luckypickle/go-ethereum-vet/common"
 )
 
 // Logger is used to collect execution traces from an EVM transaction

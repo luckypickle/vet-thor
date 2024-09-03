@@ -12,9 +12,9 @@ import (
 
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
+	"github.com/luckypickle/vet-thor/co"
+	"github.com/luckypickle/vet-thor/metrics"
 	"github.com/pkg/errors"
-	"github.com/vechain/thor/v2/co"
-	"github.com/vechain/thor/v2/metrics"
 )
 
 func StartMetricsServer(addr string) (string, func(), error) {

@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/hashicorp/golang-lru/simplelru"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/tx"
-	"github.com/vechain/thor/v2/txpool"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/tx"
+	"github.com/luckypickle/vet-thor/txpool"
 )
 
 type pendingTx struct {

@@ -6,7 +6,7 @@
 package node
 
 import (
-	"github.com/vechain/thor/v2/metrics"
+	"github.com/luckypickle/vet-thor/metrics"
 )
 
 var (

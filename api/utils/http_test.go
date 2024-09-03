@@ -13,9 +13,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/luckypickle/vet-thor/api/utils"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/api/utils"
 )
 
 func TestWrapHandlerFunc(t *testing.T) {

@@ -11,10 +11,10 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
+	"github.com/luckypickle/vet-thor/api/utils"
+	"github.com/luckypickle/vet-thor/chain"
+	"github.com/luckypickle/vet-thor/logdb"
 	"github.com/pkg/errors"
-	"github.com/vechain/thor/v2/api/utils"
-	"github.com/vechain/thor/v2/chain"
-	"github.com/vechain/thor/v2/logdb"
 )
 
 type Events struct {

@@ -10,15 +10,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/vechain/thor/v2/builtin"
-	"github.com/vechain/thor/v2/chain"
-	"github.com/vechain/thor/v2/genesis"
-	"github.com/vechain/thor/v2/muxdb"
-	"github.com/vechain/thor/v2/packer"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/tx"
+	"github.com/luckypickle/go-ethereum-vet/crypto"
+	"github.com/luckypickle/vet-thor/builtin"
+	"github.com/luckypickle/vet-thor/chain"
+	"github.com/luckypickle/vet-thor/genesis"
+	"github.com/luckypickle/vet-thor/muxdb"
+	"github.com/luckypickle/vet-thor/packer"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/tx"
 )
 
 func createTx(chainTag byte, gasPriceCoef uint8, expiration uint32, gas uint64, nonce uint64, dependsOn *thor.Bytes32, clause *tx.Clause, br tx.BlockRef) *tx.Transaction {

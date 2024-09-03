@@ -9,12 +9,12 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
+	"github.com/luckypickle/vet-thor/api/utils"
+	"github.com/luckypickle/vet-thor/bft"
+	"github.com/luckypickle/vet-thor/block"
+	"github.com/luckypickle/vet-thor/chain"
+	"github.com/luckypickle/vet-thor/thor"
 	"github.com/pkg/errors"
-	"github.com/vechain/thor/v2/api/utils"
-	"github.com/vechain/thor/v2/bft"
-	"github.com/vechain/thor/v2/block"
-	"github.com/vechain/thor/v2/chain"
-	"github.com/vechain/thor/v2/thor"
 )
 
 type Blocks struct {

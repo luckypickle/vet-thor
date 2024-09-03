@@ -13,8 +13,8 @@ import (
 
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
+	"github.com/luckypickle/vet-thor/co"
 	"github.com/pkg/errors"
-	"github.com/vechain/thor/v2/co"
 )
 
 func HTTPHandler(logLevel *slog.LevelVar) http.Handler {

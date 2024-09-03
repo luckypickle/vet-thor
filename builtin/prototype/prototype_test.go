@@ -9,11 +9,11 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/luckypickle/vet-thor/builtin/prototype"
+	"github.com/luckypickle/vet-thor/muxdb"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/builtin/prototype"
-	"github.com/vechain/thor/v2/muxdb"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
 )
 
 func M(a ...interface{}) []interface{} {

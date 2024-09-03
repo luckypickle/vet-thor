@@ -9,10 +9,10 @@ import (
 	"encoding/binary"
 	"testing"
 
+	"github.com/luckypickle/vet-thor/block"
+	"github.com/luckypickle/vet-thor/poa"
+	"github.com/luckypickle/vet-thor/thor"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/block"
-	"github.com/vechain/thor/v2/poa"
-	"github.com/vechain/thor/v2/thor"
 )
 
 var (

@@ -8,8 +8,8 @@ package state
 import (
 	"testing"
 
-	"github.com/vechain/thor/v2/muxdb"
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/vet-thor/muxdb"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 func TestStater(t *testing.T) {

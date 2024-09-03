@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/luckypickle/go-ethereum-vet/common"
 )
 
 // Bytes32 array of 32 bytes.

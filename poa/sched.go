@@ -9,7 +9,7 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 // Scheduler defines the interface of schedulers.

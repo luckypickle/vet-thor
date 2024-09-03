@@ -22,11 +22,11 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/tracers"
-	"github.com/vechain/thor/v2/vm"
+	"github.com/luckypickle/go-ethereum-vet/common"
+	"github.com/luckypickle/go-ethereum-vet/common/hexutil"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/tracers"
+	"github.com/luckypickle/vet-thor/vm"
 )
 
 //go:generate go run github.com/fjl/gencodec -type account -field-override accountMarshaling -out gen_account_json.go

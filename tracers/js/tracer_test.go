@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/vechain/thor/v2/tracers"
-	"github.com/vechain/thor/v2/vm"
+	"github.com/luckypickle/go-ethereum-vet/common"
+	"github.com/luckypickle/go-ethereum-vet/core/state"
+	"github.com/luckypickle/go-ethereum-vet/params"
+	"github.com/luckypickle/vet-thor/tracers"
+	"github.com/luckypickle/vet-thor/vm"
 )
 
 type account struct{}

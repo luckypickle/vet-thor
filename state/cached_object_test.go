@@ -10,10 +10,10 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/luckypickle/go-ethereum-vet/rlp"
+	"github.com/luckypickle/vet-thor/muxdb"
+	"github.com/luckypickle/vet-thor/thor"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/muxdb"
-	"github.com/vechain/thor/v2/thor"
 )
 
 func TestCachedObject(t *testing.T) {

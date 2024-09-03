@@ -9,7 +9,7 @@ import (
 	"bytes"
 	"errors"
 
-	ethabi "github.com/ethereum/go-ethereum/accounts/abi"
+	ethabi "github.com/luckypickle/go-ethereum-vet/accounts/abi"
 )
 
 // Method see abi.Method in go-ethereum.

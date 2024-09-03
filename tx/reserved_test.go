@@ -8,7 +8,7 @@ package tx
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/luckypickle/go-ethereum-vet/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

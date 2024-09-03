@@ -8,8 +8,8 @@ package co_test
 import (
 	"testing"
 
+	"github.com/luckypickle/vet-thor/co"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/co"
 )
 
 func TestSignal_SignalBeforeWait(t *testing.T) {

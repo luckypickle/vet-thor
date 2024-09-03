@@ -10,12 +10,12 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/luckypickle/vet-thor/muxdb/internal/engine"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/trie"
 	"github.com/stretchr/testify/assert"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/storage"
-	"github.com/vechain/thor/v2/muxdb/internal/engine"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/trie"
 )
 
 func newEngine() engine.Engine {

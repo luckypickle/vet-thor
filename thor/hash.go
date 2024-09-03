@@ -10,7 +10,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/crypto/blake2b"
+	"github.com/luckypickle/go-ethereum-vet/crypto/blake2b"
 	"golang.org/x/crypto/sha3"
 )
 

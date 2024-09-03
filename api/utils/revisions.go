@@ -10,11 +10,11 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/vechain/thor/v2/bft"
-	"github.com/vechain/thor/v2/block"
-	"github.com/vechain/thor/v2/chain"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/vet-thor/bft"
+	"github.com/luckypickle/vet-thor/block"
+	"github.com/luckypickle/vet-thor/chain"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 const (

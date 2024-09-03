@@ -12,7 +12,7 @@ import (
 	"crypto/sha256"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/crypto/secp256k1"
+	"github.com/luckypickle/go-ethereum-vet/crypto/secp256k1"
 	"github.com/vechain/go-ecvrf"
 )
 

@@ -8,7 +8,7 @@ package tx
 import (
 	"math/big"
 
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 // Transfer token transfer log.

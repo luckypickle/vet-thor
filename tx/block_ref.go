@@ -8,7 +8,7 @@ package tx
 import (
 	"encoding/binary"
 
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 // BlockRef is block reference.

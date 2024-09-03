@@ -6,7 +6,7 @@
 package txpool
 
 import (
-	"github.com/vechain/thor/v2/metrics"
+	"github.com/luckypickle/vet-thor/metrics"
 )
 
 var metricTxPoolGauge = metrics.LazyLoadGaugeVec("txpool_current_tx_count", []string{"source", "total"})

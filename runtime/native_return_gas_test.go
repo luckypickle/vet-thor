@@ -9,13 +9,13 @@ import (
 	"math"
 	"testing"
 
+	"github.com/luckypickle/vet-thor/builtin"
+	"github.com/luckypickle/vet-thor/muxdb"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/tx"
+	"github.com/luckypickle/vet-thor/xenv"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/builtin"
-	"github.com/vechain/thor/v2/muxdb"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/tx"
-	"github.com/vechain/thor/v2/xenv"
 )
 
 func TestNativeCallReturnGas(t *testing.T) {

@@ -11,15 +11,15 @@
 
 <p align="center">
     <a href="https://golang.org"><img src="https://img.shields.io/github/go-mod/go-version/vechain/thor"/></a>
-    <a href="https://github.com/vechain/thor/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-LGPL%20v3-blue.svg"/></a>
+    <a href="https://github.com/luckypickle/vet-thor/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-LGPL%20v3-blue.svg"/></a>
     <img src="https://img.shields.io/github/commits-since/vechain/thor/latest" />
     <a href="https://hub.docker.com/r/vechain/thor"><img src="https://badgen.net/docker/pulls/vechain/thor?icon=docker&label=pulls"/></a>
 </p>
 
 <p align="center">
-    <a href="https://goreportcard.com/report/github.com/vechain/thor" ><img src="https://goreportcard.com/badge/github.com/vechain/thor"/></a>
-    <img src="https://github.com/vechain/thor/actions/workflows/on-master-commit.yaml/badge.svg"/>
-    <img src="https://github.com/vechain/thor/actions/workflows/on-release.yaml/badge.svg"/>
+    <a href="https://goreportcard.com/report/github.com/luckypickle/vet-thor" ><img src="https://goreportcard.com/badge/github.com/luckypickle/vet-thor"/></a>
+    <img src="https://github.com/luckypickle/vet-thor/actions/workflows/on-master-commit.yaml/badge.svg"/>
+    <img src="https://github.com/luckypickle/vet-thor/actions/workflows/on-release.yaml/badge.svg"/>
     <a href="https://codecov.io/gh/vechain/thor"><img src="https://codecov.io/gh/vechain/thor/graph/badge.svg?token=NniVYY7IAD"/></a>
 <p/>
 

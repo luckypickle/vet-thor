@@ -12,14 +12,14 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/gorilla/websocket"
+	"github.com/luckypickle/vet-thor/api/utils"
+	"github.com/luckypickle/vet-thor/block"
+	"github.com/luckypickle/vet-thor/chain"
+	"github.com/luckypickle/vet-thor/log"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/tx"
+	"github.com/luckypickle/vet-thor/txpool"
 	"github.com/pkg/errors"
-	"github.com/vechain/thor/v2/api/utils"
-	"github.com/vechain/thor/v2/block"
-	"github.com/vechain/thor/v2/chain"
-	"github.com/vechain/thor/v2/log"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/tx"
-	"github.com/vechain/thor/v2/txpool"
 )
 
 const txQueueSize = 20

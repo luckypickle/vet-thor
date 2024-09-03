@@ -6,11 +6,11 @@
 package accounts
 
 import (
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/vechain/thor/v2/api/transactions"
-	"github.com/vechain/thor/v2/runtime"
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/go-ethereum-vet/common/hexutil"
+	"github.com/luckypickle/go-ethereum-vet/common/math"
+	"github.com/luckypickle/vet-thor/api/transactions"
+	"github.com/luckypickle/vet-thor/runtime"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 // Account for marshal account

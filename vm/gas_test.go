@@ -8,8 +8,8 @@ package vm
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/luckypickle/go-ethereum-vet/params"
 )
 
 func TestCallGas(t *testing.T) {

@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/luckypickle/go-ethereum-vet/p2p"
+	"github.com/luckypickle/go-ethereum-vet/rlp"
+	"github.com/luckypickle/vet-thor/log"
 	"github.com/pkg/errors"
-	"github.com/vechain/thor/v2/log"
 )
 
 func init() {

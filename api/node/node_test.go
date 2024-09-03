@@ -13,14 +13,14 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
+	"github.com/luckypickle/vet-thor/api/node"
+	"github.com/luckypickle/vet-thor/chain"
+	"github.com/luckypickle/vet-thor/comm"
+	"github.com/luckypickle/vet-thor/genesis"
+	"github.com/luckypickle/vet-thor/muxdb"
+	"github.com/luckypickle/vet-thor/state"
+	"github.com/luckypickle/vet-thor/txpool"
 	"github.com/stretchr/testify/assert"
-	"github.com/vechain/thor/v2/api/node"
-	"github.com/vechain/thor/v2/chain"
-	"github.com/vechain/thor/v2/comm"
-	"github.com/vechain/thor/v2/genesis"
-	"github.com/vechain/thor/v2/muxdb"
-	"github.com/vechain/thor/v2/state"
-	"github.com/vechain/thor/v2/txpool"
 )
 
 var ts *httptest.Server

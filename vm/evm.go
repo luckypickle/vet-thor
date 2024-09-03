@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
-	"github.com/vechain/thor/v2/thor"
+	"github.com/luckypickle/go-ethereum-vet/common"
+	"github.com/luckypickle/go-ethereum-vet/params"
+	"github.com/luckypickle/vet-thor/thor"
 )
 
 // emptyCodeHash is used by create to ensure deployment is disallowed to already

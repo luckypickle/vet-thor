@@ -11,14 +11,14 @@ import (
 	"fmt"
 	"reflect"
 
+	"github.com/luckypickle/vet-thor/block"
+	"github.com/luckypickle/vet-thor/chain"
+	"github.com/luckypickle/vet-thor/co"
+	"github.com/luckypickle/vet-thor/logdb"
+	"github.com/luckypickle/vet-thor/thor"
+	"github.com/luckypickle/vet-thor/tx"
 	"github.com/pkg/errors"
 	"github.com/pmezard/go-difflib/difflib"
-	"github.com/vechain/thor/v2/block"
-	"github.com/vechain/thor/v2/chain"
-	"github.com/vechain/thor/v2/co"
-	"github.com/vechain/thor/v2/logdb"
-	"github.com/vechain/thor/v2/thor"
-	"github.com/vechain/thor/v2/tx"
 	"gopkg.in/cheggaaa/pb.v1"
 )
 
