@@ -1,4 +1,4 @@
-module github.com/luckypickle/vet-thor/v2
+module github.com/luckypickle/vet-thor
 
 go 1.23
 
