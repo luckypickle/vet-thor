@@ -2,7 +2,7 @@ module github.com/luckypickle/vet-thor
 
 go 1.22
 
-toolchain go1.22.0
+toolchain go1.22.1
 
 require (
 	github.com/beevik/ntp v0.2.0
@@ -15,7 +15,7 @@ require (
 	github.com/gorilla/websocket v1.4.1
 	github.com/hashicorp/golang-lru v0.0.0-20160813221303-0a025b7e63ad
 	github.com/holiman/uint256 v1.2.4
-	github.com/luckypickle/go-ethereum-vet v1.14.0
+	github.com/luckypickle/go-ethereum-vet v1.14.2
 	github.com/mattn/go-isatty v0.0.3
 	github.com/mattn/go-sqlite3 v1.14.22
 	github.com/mattn/go-tty v0.0.0-20180219170247-931426f7535a
